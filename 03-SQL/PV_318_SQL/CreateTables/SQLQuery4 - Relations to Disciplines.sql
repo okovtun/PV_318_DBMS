@@ -1,11 +1,11 @@
-USE PV_318_SQL;
+п»їUSE PV_318_SQL;
 GO
 
 --DROP TABLE TeachersDisciplinesRelation;
 --DROP TABLE DirectionsDisciplinesRelation;
 --DROP TABLE DirectionsDisciplinesRelation;
 
---PJT - Pure JOIN Table (Для связи 'Многие ко Многим')
+--PJT - Pure JOIN Table (Р”Р»СЏ СЃРІСЏР·Рё 'РњРЅРѕРіРёРµ РєРѕ РњРЅРѕРіРёРј')
 CREATE TABLE TeachersDisciplinesRelation
 (
 	teacher		INT,

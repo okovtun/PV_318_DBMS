@@ -5,6 +5,12 @@ Visual Paradigm:
 	https://www.visual-paradigm.com/download/community.jsp
 
 TODO:
+1. Добить Базу при помощи DDL;
+2. Объединить все запросы в один файл (Начиная от CREATE DATABASE и заканчивая созданием последней таблицы),
+   И при помощи этого запроса Создать Базу AcademySQL_HW;
+3. Полный скрипт и диаграмму Базы залить на GitHub;
+
+DONE:
 Связать преподавателей с дисциплинами;
 
 DONE:

@@ -5,13 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PV_318_SQL", "PV_318_SQL\PV_318_SQL.ssmssqlproj", "{3C52833A-1509-4E56-99EB-5BC4C46D7C97}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CreateTables", "CreateTables\CreateTables.ssmssqlproj", "{18F59C93-3051-47AA-8429-34DED26509FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3C52833A-1509-4E56-99EB-5BC4C46D7C97}.Default|Default.ActiveCfg = Default
-		{37B3026F-FDF2-46B2-B344-D5504F776F1F}.Default|Default.ActiveCfg = Default
+		{3E94D993-B936-468E-93AB-4F0CCCBC26D3}.Default|Default.ActiveCfg = Default
+		{18F59C93-3051-47AA-8429-34DED26509FE}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
