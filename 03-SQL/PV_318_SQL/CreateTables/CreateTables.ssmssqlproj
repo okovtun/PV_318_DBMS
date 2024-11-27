@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery0 - CREATE DATABASE with Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-0TCDSR6\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-0TCDSR6\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery0 - CREATE DATABASE with Tables.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1 - CREATE Students branch.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-0TCDSR6\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-0TCDSR6\SQLEXPRESS</AssociatedConnSrvName>
@@ -45,6 +51,12 @@
           <AssociatedConnSrvName>DESKTOP-0TCDSR6\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery4 - Relations to Disciplines.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5 - CREATE Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-0TCDSR6\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-0TCDSR6\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5 - CREATE Schedule.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
