@@ -1,4 +1,4 @@
-USE PV_318_SQL;
+USE PD_318_DML;
 
 SELECT
 		--last_name + ' ' + first_name + ' ' + middle_name AS N'Ф.И.О.',
@@ -13,9 +13,10 @@ WHERE	Students.[group]=Groups.group_id
 AND		Groups.direction=Directions.direction_id
 --AND		group_name=N'PD_321';
 --AND		direction_name=N'Компьютерная груфика и дизайн'
-AND		direction_name LIKE N'%груфика%'
+--AND		direction_name LIKE N'%груфика%'
 --ORDER BY birth_date DESC
-ORDER BY [Возраст] DESC
+--ORDER BY [Возраст] DESC
+ORDER BY group_name
 ;
 --ASC  - Ascending  (по возрастанию);
 --DESC - Descending (по убыванию);

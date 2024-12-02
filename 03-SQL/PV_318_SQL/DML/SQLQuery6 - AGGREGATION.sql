@@ -1,12 +1,12 @@
 USE PV_318_SQL;
 
-SELECT 
+SELECT
 	--COUNT(direction_name) 
-	FORMATMESSAGE(N'%s %s %s', last_name, first_name, ISNULL middle_name) AS N'Ф.И.О.',
-	group_name		AS N'Группа',
+	--FORMATMESSAGE(N'%s %s %s', last_name, first_name, ISNULL (middle_name,N'')) AS N'Ф.И.О.',
+	--group_name		AS N'Группа',
 	direction_name		AS N'Направление обучения',
-	--COUNT(group_id)		AS N'Количество групп',
-	--COUNT(student_id)	AS N'Количество студентов'
+	COUNT(DISTINCT group_id)		AS N'Количество групп',
+	COUNT(student_id)	AS N'Количество студентов'
 FROM		Groups,Directions,Students
 WHERE		direction=direction_id
 AND			[group]=group_id

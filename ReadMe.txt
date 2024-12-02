@@ -5,6 +5,9 @@ Visual Paradigm:
 	https://www.visual-paradigm.com/download/community.jsp
 
 TODO:
+1. Выставить расписание для своей группы на MS SQL Server;
+
+DONE:
 1. Добавить все изученные дисциплины;
 2. Добавить преподавателей;
 3. Назначить дисциплины преподавателям;

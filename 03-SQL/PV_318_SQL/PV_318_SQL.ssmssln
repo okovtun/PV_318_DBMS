@@ -7,14 +7,25 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PV_318_SQL", "PV_318_SQL\PV
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CreateTables", "CreateTables\CreateTables.ssmssqlproj", "{18F59C93-3051-47AA-8429-34DED26509FE}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DML", "DML\DML.ssmssqlproj", "{B4955675-DEAF-4D08-969B-EDD82A048A5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6D1B597-14A1-4D4E-98A8-318604406406}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TeacherAndDisciplines", "TeacherAndDisciplines\TeacherAndDisciplines.ssmssqlproj", "{38AAFB38-F5DE-4278-9CD2-DDAC77099AB3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Schedule", "Schedule\Schedule.ssmssqlproj", "{18383908-A9F8-4638-B243-3CA12FB02965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3C52833A-1509-4E56-99EB-5BC4C46D7C97}.Default|Default.ActiveCfg = Default
-		{3E94D993-B936-468E-93AB-4F0CCCBC26D3}.Default|Default.ActiveCfg = Default
 		{18F59C93-3051-47AA-8429-34DED26509FE}.Default|Default.ActiveCfg = Default
+		{B4955675-DEAF-4D08-969B-EDD82A048A5C}.Default|Default.ActiveCfg = Default
+		{80676CA1-3AE7-4BE1-9681-9E3A9487C05F}.Default|Default.ActiveCfg = Default
+		{38AAFB38-F5DE-4278-9CD2-DDAC77099AB3}.Default|Default.ActiveCfg = Default
+		{18383908-A9F8-4638-B243-3CA12FB02965}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
