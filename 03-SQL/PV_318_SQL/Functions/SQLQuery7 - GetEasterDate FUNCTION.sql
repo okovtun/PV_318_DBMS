@@ -1,7 +1,7 @@
 USE PD_318_DML;
 GO
 
-CREATE FUNCTION GetEasterDate
+ALTER FUNCTION GetEasterDate
 (
 	@year AS INT
 )
